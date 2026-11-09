@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Odoo logs & database dumps
+*.log
+*.dump
+*.sql
+
+# Sensitive credentials & certificates
+*.p12
+*.pem
+*.key
+*.crt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs & System files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+

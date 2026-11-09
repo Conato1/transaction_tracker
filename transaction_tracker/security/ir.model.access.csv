@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_transaction_tracker_user,transaction.tracker.user,model_transaction_tracker,base.group_user,1,1,1,0
+access_transaction_tracker_manager,transaction.tracker.manager,model_transaction_tracker,base.group_system,1,1,1,1
+access_transaction_tracker_line_user,transaction.tracker.line.user,model_transaction_tracker_line,base.group_user,1,1,1,0
+access_transaction_tracker_line_manager,transaction.tracker.line.manager,model_transaction_tracker_line,base.group_system,1,1,1,1
